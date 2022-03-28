@@ -10,7 +10,7 @@ The code contains two object scala files with two different functions. The idea 
 - Now run the test cases again using sbt clean test
 - This time there should be two test passing successfully
 
-# Spark-Submit
+## Spark-Submit
 - Download and extract Spark 2.4.0 (https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz)
 - set SPARK_HOME to the extracted folder
 - Add SPARK_HOME/bin to PATH variable to make spark-submit available to be run from anywhere 
@@ -19,7 +19,7 @@ The code contains two object scala files with two different functions. The idea 
 - sbt clean package
 - Run spark-submit command to check code is running
 - spark-submit --class com.de.app.Sum --master local target/scala-2.12/in-de-codepair-template-scala_2.12-0.1.0-SNAPSHOT.jar
-- Check sum=21 in the output
+- Check sum=20 in the output
 
 ## Summary
 Expect similar test cases in the actual coding round

@@ -1,9 +1,6 @@
 package com.de.app
 
-
-import java.lang
-
-import org.apache.spark.sql.{Dataset, SparkSession}
+import org.apache.spark.sql.SparkSession
 
 
 object Sum extends App{
