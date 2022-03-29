@@ -1,16 +1,24 @@
 # SCALA TEST EXAMPLE
 
-The code contains two object scala files with two different functions. The idea of this sample scala project is to make you aware of how to write test in scalatest and run them
+The code contains 4 object scala files with three different functions(square,cube and sum) and one implementation for spark.
 
-## Instructions:
+The idea of this sample scala project is to make you aware of how to write test in scalatest and run them
+## Assumptions
+- Java (1.8) and JAVA_HOME set
+- sbt 1.1.x
+- scala 2.12
+- spark 2.4
+
+## Instructions
 
 - Run command sbt test from the root of the project
-- It should pass 1 test case
+- It should pass 1 test case, 1 failing , 1 ignored
 - One of the test is ignored , follow the instructions over that function test case to enable it
+- One of the test is failing, correct the assetion logic to pass the test case.
 - Now run the test cases again using sbt clean test
-- This time there should be two test passing successfully
+- This time there should be 3 test passing successfully.
 
-## Spark-Submit
+## Runnng Sum Program using Spark-Submit
 - Download and extract Spark 2.4.0 (https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz)
 - set SPARK_HOME to the extracted folder
 - Add SPARK_HOME/bin to PATH variable to make spark-submit available to be run from anywhere 
